@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import styles from '@/styles/Home.module.css';
+import Navbar from '@/components/Navbar';
+import Intro from '@/sections/Intro';
 
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <h1>Portfolio</h1>
+      <main className="mx-10">
+        <Navbar />
+        <Intro />
       </main>
     </>
   );

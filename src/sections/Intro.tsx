@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <section className="py-32">
+    <section className="pt-[calc(20vh-42px)] pb-[35vh]">
       <p className="text-cyan-300 pb-4 text-lg">Hi, my name is</p>
       <h1 className="text-slate-300 text-3xl xs:text-[7vw]  md:text-7xl xs:leading-normal">Matvei Voinich.</h1>
       <h1 className="text-slate-500 text-3xl xs:text-[7vw] md:text-7xl xs:leading-10">I build things for the web.</h1>

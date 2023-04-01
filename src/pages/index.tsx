@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Intro from '@/sections/Intro';
+import About from '@/sections/About';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="mx-10">
         <Navbar />
         <Intro />
+        <About />
       </main>
     </>
   );

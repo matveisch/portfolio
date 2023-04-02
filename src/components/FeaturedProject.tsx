@@ -22,11 +22,13 @@ export default function FeaturedProject(props: Props) {
         className={`max-w-[500px] rounded-md row-start-1 ${
           rtl ? 'col-start-4 col-end-3 place-self-end' : 'col-start-1 col-end-3 place-self-start'
         } bg-cyan-300`}>
-        <Image
-          src={cover}
-          alt="project-cover"
-          className={`max-w-[500px] rounded-md grayscale contrast-100 mix-blend-multiply hover:filter-none hover:mix-blend-normal`}
-        />
+        <a href={linkWebsite}>
+          <Image
+            src={cover}
+            alt="project-cover"
+            className={`max-w-[500px] rounded-md grayscale contrast-100 mix-blend-multiply hover:filter-none hover:mix-blend-normal`}
+          />
+        </a>
       </div>
       <div
         className={`row-start-1 flex flex-col z-10

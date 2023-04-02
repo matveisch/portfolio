@@ -4,6 +4,7 @@ import Intro from '@/sections/Intro';
 import About from '@/sections/About';
 import { useRef } from 'react';
 import Experience from '@/sections/Experience';
+import Work from '@/sections/Work';
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -40,6 +41,9 @@ export default function Home() {
         </div>
         <div ref={experienceRef} className="scroll-mt-20">
           <Experience />
+        </div>
+        <div>
+          <Work />
         </div>
       </main>
     </>

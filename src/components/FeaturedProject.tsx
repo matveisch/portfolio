@@ -1,4 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
+import githubIcon from '../../public/images/github.png';
+import linkIcon from '../../public/images/external-link.png';
+import styles from '../styles/Home.module.css';
 
 interface Props {
   title: string;
@@ -38,6 +41,14 @@ export default function FeaturedProject(props: Props) {
           {stack.map(item => {
             return <p key={item}>{item}</p>;
           })}
+        </div>
+        <div className="flex gap-4 items-center mt-3">
+          <a href={linkGithub}>
+            <Image src={githubIcon} alt="github-icon" width={20} className={`${styles.filter}`} />
+          </a>
+          <a href={linkWebsite}>
+            <Image src={linkIcon} alt="link-icon" width={20} className={`${styles.filter}`} />
+          </a>
         </div>
       </div>
     </div>

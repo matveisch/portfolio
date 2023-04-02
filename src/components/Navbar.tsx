@@ -3,7 +3,7 @@ import { PropsWithChildren } from 'react';
 
 export default function Navbar({ children }: PropsWithChildren) {
   return (
-    <nav className="flex justify-between py-5 px-10 items-center fixed w-[100vw] left-0 bg-dark-blue-blur backdrop-blur z-10">
+    <nav className="flex justify-between py-5 px-10 items-center fixed w-[100vw] top-0 left-0 bg-dark-blue-blur backdrop-blur z-10">
       <Logo />
       <div className="md:flex gap-4 hidden">
         {children}

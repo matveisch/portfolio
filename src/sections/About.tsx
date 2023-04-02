@@ -4,7 +4,7 @@ import Triangle from '@/components/Triangle';
 
 export default function About() {
   const skills = [
-    'JavaScript (ES6+)',
+    'JavaScript',
     'TypeScript',
     'React',
     'Redux',
@@ -59,7 +59,7 @@ export default function About() {
             <br /> <br />
             Here are a few technologies I’ve been working with recently:
           </p>
-          <div className="grid grid-cols-3 mt-2">
+          <div className="grid sm:grid-cols-3 grid-cols-2 mt-2">
             {skills.map(skill => {
               return (
                 <div className="flex items-center gap-3 w-fit" key={skill}>

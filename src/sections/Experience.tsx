@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import JobDescription from '@/components/JobDescription';
 
-export default function Work() {
+export default function Experience() {
   const [activeTab, setActiveTab] = useState(0);
   const jobs = [
     {

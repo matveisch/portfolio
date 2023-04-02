@@ -3,14 +3,11 @@ import Navbar from '@/components/Navbar';
 import Intro from '@/sections/Intro';
 import About from '@/sections/About';
 import { useRef } from 'react';
-import Work from '@/sections/Work';
+import Experience from '@/sections/Experience';
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null);
-
-  const handleClick = () => {
-    aboutRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const experienceRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
@@ -23,20 +20,26 @@ export default function Home() {
       <main className="mx-10">
         <header>
           <Navbar>
-            <button className="hover:text-cyan-300 text-slate-300" onClick={handleClick}>
+            <button
+              className="hover:text-cyan-300 text-slate-300"
+              onClick={() => aboutRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
               About
             </button>
-            <button className="hover:text-cyan-300 text-slate-300">Experience</button>
+            <button
+              className="hover:text-cyan-300 text-slate-300"
+              onClick={() => experienceRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+              Experience
+            </button>
             <button className="hover:text-cyan-300 text-slate-300">Work</button>
             <button className="hover:text-cyan-300 text-slate-300">Contact</button>
           </Navbar>
         </header>
         <Intro />
-        <div ref={aboutRef}>
+        <div ref={aboutRef} className="scroll-mt-20">
           <About />
         </div>
-        <div>
-          <Work />
+        <div ref={experienceRef} className="scroll-mt-20">
+          <Experience />
         </div>
       </main>
     </>

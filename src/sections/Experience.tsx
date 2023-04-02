@@ -35,7 +35,7 @@ export default function Experience() {
       <h1 className="text-3xl text-slate-300 mb-10">
         Where <span className="text-cyan-300">I've Worked</span>
       </h1>
-      <div className="flex gap-10 flex-col sm:flex-row">
+      <div className="flex gap-10 flex-col sm:flex-row min-h-[250px]">
         <div className="flex flex-row sm:flex-col">
           {jobs.map((job, index) => {
             return (

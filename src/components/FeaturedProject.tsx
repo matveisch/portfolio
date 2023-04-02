@@ -15,17 +15,20 @@ export default function FeaturedProject(props: Props) {
 
   return (
     <div className={rtl ? 'grid grid-cols-3 items-center grid-rows-1' : 'grid grid-cols-3 items-center'}>
-      <Image
-        src={cover}
-        alt="project-cover"
-        className={`max-w-[500px] rounded-md ${rtl && 'flex col-start-4 col-end-3 place-self-end'}`}
-      />
       <div
-        className={
-          rtl
-            ? 'flex flex-col col-start-1 col-end-3 items-start row-start-1'
-            : 'flex flex-col col-start-2 col-end-4 items-end'
-        }>
+        className={`max-w-[500px] rounded-md row-start-1 ${
+          rtl ? 'col-start-4 col-end-3 place-self-end' : 'col-start-1 col-end-3 place-self-start'
+        } bg-cyan-300`}>
+        <Image
+          src={cover}
+          alt="project-cover"
+          className={`max-w-[500px] rounded-md grayscale contrast-100 mix-blend-multiply hover:filter-none hover:mix-blend-normal`}
+        />
+      </div>
+      <div
+        className={`row-start-1 flex flex-col z-10
+          ${rtl ? 'col-start-1 col-end-3 items-start' : 'col-start-2 col-end-4 items-end'}
+        `}>
         <h4 className="mb-1 text-cyan-300">Featured Project</h4>
         <h2 className="mb-4 text-2xl text-slate-300">{title}</h2>
         <div className="bg-[#112240] p-2 rounded-md mb-4">

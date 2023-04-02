@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="work description">
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="work basic styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680350227627</updated>
-      <workItem from="1680350228813" duration="36405000" />
+      <workItem from="1680350228813" duration="37249000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680449854758</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="work basic styling">
+      <created>1680453305947</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680453305947</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +183,7 @@
     <MESSAGE value="scroll fixes" />
     <MESSAGE value="work initial commit" />
     <MESSAGE value="work description" />
-    <option name="LAST_COMMIT_MESSAGE" value="work description" />
+    <MESSAGE value="work basic styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="work basic styling" />
   </component>
 </project>

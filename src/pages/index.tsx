@@ -2,8 +2,15 @@ import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Intro from '@/sections/Intro';
 import About from '@/sections/About';
+import { useRef } from 'react';
 
 export default function Home() {
+  const aboutRef = useRef<HTMLDivElement>(null);
+
+  const handleClick = () => {
+    aboutRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       <Head>
@@ -13,9 +20,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-10">
-        <Navbar />
+        <Navbar>
+          <button className="hover:text-cyan-300 text-slate-300" onClick={handleClick}>
+            About
+          </button>
+          <button className="hover:text-cyan-300 text-slate-300">Experience</button>
+          <button className="hover:text-cyan-300 text-slate-300">Work</button>
+          <button className="hover:text-cyan-300 text-slate-300">Contact</button>
+        </Navbar>
         <Intro />
-        <About />
+        <div ref={aboutRef}>
+          <About />
+        </div>
       </main>
     </>
   );

@@ -57,6 +57,7 @@ export default function Work() {
             linkGithub={project.linkGithub}
             linkWebsite={project.linkWebsite}
             rtl={index % 2 !== 0}
+            key={project.title}
           />
         ))}
       </div>

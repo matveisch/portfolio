@@ -27,7 +27,7 @@ export default function About() {
         About <span className="text-cyan-300">Me</span>
       </h1>
       <div className="flex gap-10 flex-col items-center md:items-start md:flex-row">
-        <text>
+        <div>
           <p>
             Hi there! My name is Matvei, and I'm thrilled to share a little bit about myself with you. I'm a web
             developer with a passion for creating beautiful and functional digital experiences. My journey in web
@@ -68,7 +68,7 @@ export default function About() {
               );
             })}
           </div>
-        </text>
+        </div>
         <div className="relative max-h-[300px] max-w-[300px] bg-cyan-300 rounded-md group">
           <Image
             src={profilePicture}

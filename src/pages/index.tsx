@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import Intro from '@/sections/Intro';
 import About from '@/sections/About';
 import { useRef } from 'react';
+import Work from '@/sections/Work';
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -33,6 +34,9 @@ export default function Home() {
         <Intro />
         <div ref={aboutRef}>
           <About />
+        </div>
+        <div>
+          <Work />
         </div>
       </main>
     </>

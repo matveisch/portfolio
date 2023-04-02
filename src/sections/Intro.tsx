@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <div className="pt-[calc(20vh-42px)] pb-[35vh]">
+    <section className="flex flex-col h-[100vh] justify-center items-start">
       <p className="text-cyan-300 pb-4 text-lg">Hi, my name is</p>
       <h1 className="text-slate-300 text-3xl xs:text-[7vw]  md:text-7xl xs:leading-normal">Matvei Voinich.</h1>
       <h1 className="text-3xl xs:text-[7vw] md:text-7xl xs:leading-10">I build things for the web.</h1>
@@ -8,6 +8,9 @@ export default function Intro() {
         Welcome to my portfolio. I create visually appealing websites and applications using front-end and back-end
         technologies. Browse my portfolio for examples of my work, and contact me to discuss your project.
       </p>
-    </div>
+      <button className="border border-cyan-300 rounded-md px-6 py-3 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue mt-12">
+        Reach me out right away!
+      </button>
+    </section>
   );
 }

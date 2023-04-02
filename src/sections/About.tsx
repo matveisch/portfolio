@@ -22,7 +22,7 @@ export default function About() {
   ];
 
   return (
-    <div className="py-[100px]">
+    <section className="py-[100px]">
       <h1 className="text-3xl text-slate-300 mb-10">
         About <span className="text-cyan-300">Me</span>
       </h1>
@@ -78,6 +78,6 @@ export default function About() {
           <div className="w-[100%] h-[100%] border border-cyan-300 rounded-md absolute top-5 left-5 -z-10 group-hover:top-2 group-hover:left-2 transition-all " />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

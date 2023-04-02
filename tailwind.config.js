@@ -12,6 +12,7 @@ module.exports = {
     },
     colors: {
       'dark-blue': '#0a192f',
+      'dark-blue-blur': 'rgba(10, 25, 47, 0.85)',
       ...require('tailwindcss/colors'),
     },
     fontFamily: {

@@ -20,14 +20,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-10">
-        <Navbar>
-          <button className="hover:text-cyan-300 text-slate-300" onClick={handleClick}>
-            About
-          </button>
-          <button className="hover:text-cyan-300 text-slate-300">Experience</button>
-          <button className="hover:text-cyan-300 text-slate-300">Work</button>
-          <button className="hover:text-cyan-300 text-slate-300">Contact</button>
-        </Navbar>
+        <header>
+          <Navbar>
+            <button className="hover:text-cyan-300 text-slate-300" onClick={handleClick}>
+              About
+            </button>
+            <button className="hover:text-cyan-300 text-slate-300">Experience</button>
+            <button className="hover:text-cyan-300 text-slate-300">Work</button>
+            <button className="hover:text-cyan-300 text-slate-300">Contact</button>
+          </Navbar>
+        </header>
         <Intro />
         <div ref={aboutRef}>
           <About />

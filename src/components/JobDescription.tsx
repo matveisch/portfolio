@@ -1,4 +1,5 @@
 import Triangle from '@/components/Triangle';
+import styles from '../styles/Home.module.css';
 
 interface Props {
   title: string;
@@ -12,10 +13,13 @@ export default function JobDescription(props: Props) {
   const { title, company, points, date, link } = props;
 
   return (
-    <div>
+    <div className={styles.fadeIn}>
       <h3 className="text-xl text-slate-300">
         {title} <span className="text-cyan-300">@</span>{' '}
-        <a className="group inline-block text-cyan-300 transition duration-300" href={link} target="_blank">
+        <a
+          className="group inline-block text-cyan-300 transition duration-300"
+          href={link}
+          target="_blank">
           {company}
           <span className="block w-0 group-hover:w-full transition-all duration-500 h-0.5 bg-cyan-300"></span>
         </a>

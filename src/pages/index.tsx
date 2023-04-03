@@ -5,11 +5,13 @@ import About from '@/sections/About';
 import { useRef } from 'react';
 import Experience from '@/sections/Experience';
 import Work from '@/sections/Work';
+import Contact from '@/sections/Contact';
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null);
   const experienceRef = useRef<HTMLDivElement>(null);
   const workRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
@@ -37,7 +39,11 @@ export default function Home() {
               onClick={() => workRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
               Work
             </button>
-            <button className="hover:text-cyan-300 text-slate-300">Contact</button>
+            <button
+              className="hover:text-cyan-300 text-slate-300"
+              onClick={() => contactRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+              Contact
+            </button>
           </Navbar>
         </header>
         <Intro />
@@ -49,6 +55,9 @@ export default function Home() {
         </div>
         <div ref={workRef} className="scroll-mt-20">
           <Work />
+        </div>
+        <div ref={contactRef} className="scroll-mt-20">
+          <Contact />
         </div>
       </main>
     </>

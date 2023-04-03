@@ -2,17 +2,93 @@ import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Intro from '@/sections/Intro';
 import About from '@/sections/About';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Experience from '@/sections/Experience';
 import Work from '@/sections/Work';
 import Contact from '@/sections/Contact';
 import Footer from '@/components/Footer';
 
 export default function Home() {
+  const [navbarMobile, setNavbarMobile] = useState<boolean>(false);
+  const [screenWidth, setScreenWidth] = useState(0);
   const aboutRef = useRef<HTMLDivElement>(null);
   const experienceRef = useRef<HTMLDivElement>(null);
   const workRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleResize() {
+      setScreenWidth(window.innerWidth);
+    }
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (screenWidth >= 768) setNavbarMobile(false);
+  }, [screenWidth]);
+
+  function Buttons() {
+    return (
+      <div
+        className={`
+          flex flex-col fixed top-[80px] left-0 gap-4 w-[100vw] bg-dark-blue-blur backdrop-blur z-50 items-center pb-4
+          md:left-[unset] md:w-[unset] md:flex-row md:relative md:top-0 md:pb-[unset]
+        `}>
+        <button
+          className="hover:text-cyan-300 text-slate-300"
+          onClick={() => {
+            aboutRef.current?.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+            setNavbarMobile(false);
+          }}>
+          About
+        </button>
+        <button
+          className="hover:text-cyan-300 text-slate-300"
+          onClick={() => {
+            experienceRef.current?.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+            setNavbarMobile(false);
+          }}>
+          Experience
+        </button>
+        <button
+          className="hover:text-cyan-300 text-slate-300"
+          onClick={() => {
+            workRef.current?.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+            setNavbarMobile(false);
+          }}>
+          Work
+        </button>
+        <button
+          className="hover:text-cyan-300 text-slate-300"
+          onClick={() => {
+            contactRef.current?.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+            setNavbarMobile(false);
+          }}>
+          Contact
+        </button>
+        <button className="border border-cyan-300 rounded-md px-1 py-2 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue">
+          Resume
+        </button>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -23,49 +99,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-[10vw]">
-        <header>
-          <Navbar>
-            <button
-              className="hover:text-cyan-300 text-slate-300"
-              onClick={() =>
-                aboutRef.current?.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'start',
-                })
-              }>
-              About
-            </button>
-            <button
-              className="hover:text-cyan-300 text-slate-300"
-              onClick={() =>
-                experienceRef.current?.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'start',
-                })
-              }>
-              Experience
-            </button>
-            <button
-              className="hover:text-cyan-300 text-slate-300"
-              onClick={() =>
-                workRef.current?.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'start',
-                })
-              }>
-              Work
-            </button>
-            <button
-              className="hover:text-cyan-300 text-slate-300"
-              onClick={() =>
-                contactRef.current?.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'start',
-                })
-              }>
-              Contact
-            </button>
+        <header className="relative">
+          <Navbar navbarMobile={navbarMobile} setNavbarMobile={setNavbarMobile}>
+            <Buttons />
           </Navbar>
+          {navbarMobile && <Buttons />}
         </header>
         <Intro />
         <div ref={aboutRef} className="scroll-mt-20">

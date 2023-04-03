@@ -19,27 +19,35 @@ export default function Contact() {
           let's talk about how I can help bring your ideas to life. Contact me
           now and let's get started!
         </p>
-        <div className="flex gap-2">
-          <Link href={''} target="_blank" as="image">
+        <div className="flex gap-8 py-2">
+          <Link
+            href={'https://github.com/matveisch'}
+            target="_blank"
+            as="image">
             <Image
               src={githubIcon}
               alt="github-icon"
-              width={20}
+              width={25}
               className={styles.filterGrey}
             />
           </Link>
-          <Link href={''} target="_blank" as="image">
+          <Link
+            href={'https://www.linkedin.com/in/matvei-voinich/'}
+            target="_blank"
+            as="image">
             <Image
               src={linkedinIcon}
               alt="linkedin-icon"
-              width={20}
+              width={25}
               className={styles.filterGrey}
             />
           </Link>
         </div>
-        <button className="border border-cyan-300 rounded-md px-2 py-2 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue">
+        <a
+          href="mailto:matveivoinich@gmail.com"
+          className="border border-cyan-300 rounded-md px-2 py-2 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue">
           Reach Out
-        </button>
+        </a>
       </div>
     </section>
   );

@@ -57,6 +57,7 @@ export default function Work() {
     function handleWidthChange() {
       setScreenWidth(window.innerWidth);
     }
+    handleWidthChange();
 
     window.addEventListener('resize', handleWidthChange);
 

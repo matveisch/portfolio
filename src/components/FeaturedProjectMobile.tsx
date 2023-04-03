@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import githubIcon from '../../public/images/github.png';
 import linkIcon from '../../public/images/external-link.png';
 import styles from '../styles/Home.module.css';
@@ -6,16 +6,14 @@ import Link from 'next/link';
 
 interface Props {
   title: string;
-  cover: StaticImageData;
   description: string;
   stack: string[];
   linkGithub: string;
   linkWebsite: string;
-  rtl: boolean;
 }
 
 export default function FeaturedProjectMobile(props: Props) {
-  const { title, cover, description, stack, linkGithub, linkWebsite, rtl } = props;
+  const { title, description, stack, linkGithub, linkWebsite } = props;
 
   return (
     <div className="relative bg-[#112240] rounded-md">

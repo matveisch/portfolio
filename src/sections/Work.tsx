@@ -57,12 +57,6 @@ export default function Work() {
     };
   }, []);
 
-  function getComponent() {
-    if (screenWidth > 768) {
-      return FeaturedProject;
-    }
-  }
-
   return (
     <section>
       <h1 className="text-3xl text-slate-300 mb-10">
@@ -84,12 +78,10 @@ export default function Work() {
           ) : (
             <FeaturedProjectMobile
               title={project.title}
-              cover={project.cover}
               description={project.description}
               stack={project.stack}
               linkGithub={project.linkGithub}
               linkWebsite={project.linkWebsite}
-              rtl={index % 2 !== 0}
               key={project.title}
             />
           ),

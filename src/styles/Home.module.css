@@ -5,3 +5,11 @@
 .filter:hover {
     filter: invert(71%) sepia(36%) saturate(697%) hue-rotate(158deg) brightness(110%) contrast(95%);
 }
+
+.filterGrey {
+    filter: invert(84%) sepia(4%) saturate(1787%) hue-rotate(190deg) brightness(85%) contrast(91%);
+}
+
+.filterGrey:hover {
+    filter: invert(71%) sepia(36%) saturate(697%) hue-rotate(158deg) brightness(110%) contrast(95%);
+}

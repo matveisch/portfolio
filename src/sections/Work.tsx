@@ -21,7 +21,15 @@ export default function Work() {
       cover: streamingCover,
       description:
         'The video streaming website is a user-friendly platform that offers a diverse range of educational video content related to the financial markets. Students can easily navigate through different courses and lessons and track their progress. The website features experienced traders and investors, covering topics such as technical analysis, fundamental analysis, and trading psychology. The website is a powerful tool for students to improve their knowledge and skills in trading and investing.',
-      stack: ['React', 'Vite', 'Node', 'Express', 'MongoDB', 'TypeScript', 'Sass'],
+      stack: [
+        'React',
+        'Vite',
+        'Node',
+        'Express',
+        'MongoDB',
+        'TypeScript',
+        'Sass',
+      ],
       linkGithub: '#',
       linkWebsite: '#',
     },

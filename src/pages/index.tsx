@@ -6,6 +6,7 @@ import { useRef } from 'react';
 import Experience from '@/sections/Experience';
 import Work from '@/sections/Work';
 import Contact from '@/sections/Contact';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -26,22 +27,42 @@ export default function Home() {
           <Navbar>
             <button
               className="hover:text-cyan-300 text-slate-300"
-              onClick={() => aboutRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+              onClick={() =>
+                aboutRef.current?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start',
+                })
+              }>
               About
             </button>
             <button
               className="hover:text-cyan-300 text-slate-300"
-              onClick={() => experienceRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+              onClick={() =>
+                experienceRef.current?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start',
+                })
+              }>
               Experience
             </button>
             <button
               className="hover:text-cyan-300 text-slate-300"
-              onClick={() => workRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+              onClick={() =>
+                workRef.current?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start',
+                })
+              }>
               Work
             </button>
             <button
               className="hover:text-cyan-300 text-slate-300"
-              onClick={() => contactRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+              onClick={() =>
+                contactRef.current?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start',
+                })
+              }>
               Contact
             </button>
           </Navbar>
@@ -59,6 +80,7 @@ export default function Home() {
         <div ref={contactRef} className="scroll-mt-20">
           <Contact />
         </div>
+        <Footer />
       </main>
     </>
   );

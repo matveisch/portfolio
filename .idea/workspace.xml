@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="fixes">
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="fixes &amp; scroll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Work.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680350227627</updated>
-      <workItem from="1680350228813" duration="40136000" />
+      <workItem from="1680350228813" duration="43524000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -188,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680459246992</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixes &amp; scroll">
+      <created>1680459951481</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680459951481</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +213,7 @@
     <MESSAGE value="work basic styling" />
     <MESSAGE value="work desktop polishing" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="fixes &amp; scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes &amp; scroll" />
   </component>
 </project>

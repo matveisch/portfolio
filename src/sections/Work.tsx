@@ -2,7 +2,10 @@ import radarCover from '../../public/images/radar.png';
 import streamingCover from '../../public/images/beetrade-streaming.png';
 import promoteCover from '../../public/images/beetrade-promote.png';
 import FeaturedProject from '@/components/FeaturedProject';
+import { useEffect, useState } from 'react';
+import FeaturedProjectMobile from '@/components/FeaturedProjectMobile';
 export default function Work() {
+  const [screenWidth, setScreenWidth] = useState(0);
   const projects = [
     {
       title: 'Website For Marketing Agency',
@@ -42,24 +45,55 @@ export default function Work() {
     },
   ];
 
+  useEffect(() => {
+    function handleWidthChange() {
+      setScreenWidth(window.innerWidth);
+    }
+
+    window.addEventListener('resize', handleWidthChange);
+
+    return () => {
+      window.removeEventListener('resize', handleWidthChange);
+    };
+  }, []);
+
+  function getComponent() {
+    if (screenWidth > 768) {
+      return FeaturedProject;
+    }
+  }
+
   return (
     <section>
       <h1 className="text-3xl text-slate-300 mb-10">
         Some Things <span className="text-cyan-300">I've Built</span>
       </h1>
-      <div className="flex flex-col gap-32">
-        {projects.map((project, index) => (
-          <FeaturedProject
-            title={project.title}
-            cover={project.cover}
-            description={project.description}
-            stack={project.stack}
-            linkGithub={project.linkGithub}
-            linkWebsite={project.linkWebsite}
-            rtl={index % 2 !== 0}
-            key={project.title}
-          />
-        ))}
+      <div className="flex flex-col gap-20 md:gap-32">
+        {projects.map((project, index) =>
+          screenWidth > 768 ? (
+            <FeaturedProject
+              title={project.title}
+              cover={project.cover}
+              description={project.description}
+              stack={project.stack}
+              linkGithub={project.linkGithub}
+              linkWebsite={project.linkWebsite}
+              rtl={index % 2 !== 0}
+              key={project.title}
+            />
+          ) : (
+            <FeaturedProjectMobile
+              title={project.title}
+              cover={project.cover}
+              description={project.description}
+              stack={project.stack}
+              linkGithub={project.linkGithub}
+              linkWebsite={project.linkWebsite}
+              rtl={index % 2 !== 0}
+              key={project.title}
+            />
+          ),
+        )}
       </div>
     </section>
   );

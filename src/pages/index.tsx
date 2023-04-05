@@ -107,7 +107,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
+        <title>Matvei Voinich</title>
         <meta name="description" content="Portfolio of Matvei Voinich" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />

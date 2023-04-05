@@ -7,6 +7,7 @@ import Experience from '@/sections/Experience';
 import Work from '@/sections/Work';
 import Contact from '@/sections/Contact';
 import Footer from '@/components/Footer';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   const [navbarMobile, setNavbarMobile] = useState<boolean>(false);
@@ -15,6 +16,7 @@ export default function Home() {
   const experienceRef = useRef<HTMLDivElement>(null);
   const workRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleResize() {
@@ -32,15 +34,22 @@ export default function Home() {
     if (screenWidth >= 768) setNavbarMobile(false);
   }, [screenWidth]);
 
+  function handleClickOutside(e: { target: any }) {
+    if (wrapperRef.current && !wrapperRef.current.contains(e.target)) {
+      setNavbarMobile(false);
+    }
+  }
+
   function Buttons() {
     return (
       <div
+        ref={wrapperRef}
         className={`
           flex flex-col fixed top-[80px] left-0 gap-4 w-[100vw] bg-dark-blue-blur backdrop-blur z-50 items-center pb-4
           md:left-[unset] md:w-[unset] md:flex-row md:relative md:top-0 md:pb-[unset]
         `}>
         <button
-          className="hover:text-cyan-300 text-slate-300"
+          className={`{hover:text-cyan-300 text-slate-300 ${styles.fadeIn}`}
           onClick={() => {
             aboutRef.current?.scrollIntoView({
               behavior: 'smooth',
@@ -51,7 +60,8 @@ export default function Home() {
           About
         </button>
         <button
-          className="hover:text-cyan-300 text-slate-300"
+          className={`{hover:text-cyan-300 text-slate-300 ${styles.fadeIn}`}
+          style={{ animationDuration: '2s' }}
           onClick={() => {
             experienceRef.current?.scrollIntoView({
               behavior: 'smooth',
@@ -62,7 +72,8 @@ export default function Home() {
           Experience
         </button>
         <button
-          className="hover:text-cyan-300 text-slate-300"
+          className={`{hover:text-cyan-300 text-slate-300 ${styles.fadeIn}`}
+          style={{ animationDuration: '3s' }}
           onClick={() => {
             workRef.current?.scrollIntoView({
               behavior: 'smooth',
@@ -73,7 +84,8 @@ export default function Home() {
           Work
         </button>
         <button
-          className="hover:text-cyan-300 text-slate-300"
+          className={`{hover:text-cyan-300 text-slate-300 ${styles.fadeIn}`}
+          style={{ animationDuration: '4s' }}
           onClick={() => {
             contactRef.current?.scrollIntoView({
               behavior: 'smooth',
@@ -83,7 +95,9 @@ export default function Home() {
           }}>
           Contact
         </button>
-        <button className="border border-cyan-300 rounded-md px-1 py-2 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue">
+        <button
+          className={`border border-cyan-300 rounded-md px-1 py-2 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue ${styles.fadeIn}`}
+          style={{ animationDuration: '5s' }}>
           Resume
         </button>
       </div>
@@ -103,7 +117,13 @@ export default function Home() {
           <Navbar navbarMobile={navbarMobile} setNavbarMobile={setNavbarMobile}>
             <Buttons />
           </Navbar>
-          {navbarMobile && <Buttons />}
+          {navbarMobile && (
+            <div
+              className="fixed top-[218px] bottom-0 left-0 right-0 z-50"
+              onClick={handleClickOutside}>
+              <Buttons />
+            </div>
+          )}
         </header>
         <Intro />
         <div ref={aboutRef} className="scroll-mt-20">

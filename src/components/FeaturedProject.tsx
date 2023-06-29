@@ -75,22 +75,22 @@ export default function FeaturedProject(props: Props) {
           })}
         </div>
         <div className="flex gap-4 items-center mt-3">
-          <Link href={linkGithub} target="_blank" as="image">
+          {linkGithub.length > 1 && <Link href={linkGithub} target="_blank" as="image">
             <Image
               src={githubIcon}
               alt="github-icon"
               width={20}
               className={`${styles.filter}`}
             />
-          </Link>
-          <Link href={linkWebsite} target="_blank" as="image">
+          </Link>}
+          {linkWebsite.length > 1 && <Link href={linkWebsite} target="_blank" as="image">
             <Image
               src={linkIcon}
               alt="link-icon"
               width={20}
               className={`${styles.filter}`}
             />
-          </Link>
+          </Link>}
         </div>
       </div>
     </div>

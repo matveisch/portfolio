@@ -13,11 +13,12 @@ export default function Experience() {
       title: 'Front-End Developer',
       company: 'Noviopus',
       link: 'https://noviopus.com/',
-      date: 'Sep 2022 - Present',
+      date: 'Sep 2022 - Apr 2023',
       points: [
+        'Translated the whole application into different languages using i18next, TypeScript and React.',
         'Worked cooperatively with client services, sales and design team in deadline-driven environment.',
         'Coded using React, Redux, CSS, MUI and TypeScript to develop features for both mobile and desktop platforms.',
-        'Designed and updated layouts to meet usability and performance requirements.',
+        'Designed and updated layouts to meet usability and performance requirements.'
       ],
     },
     {
@@ -26,11 +27,10 @@ export default function Experience() {
       link: 'https://pskovhack.ru/',
       date: 'Mar 2021 - Jun 2022',
       points: [
-        '1+ year of solid experience with React JS framework a n d strong knowledge in Redux.',
-        '1+ year of experience with JavaScript (ES6+), HTML5, and CSS3.',
-        '1+ year of experience with implementing/connecting REST APIs.',
-        'Strong analytical and problem-solving skills',
-        'Was a part of a full-stack team as a front-end developer',
+        'Collaborated with client services, sales, and design teams in a deadline-driven environment, utilizing mastered skills in React, Redux, CSS, MUI, and TypeScript.',
+        'Developed features for mobile and desktop platforms, ensuring layouts met usability and performance requirements.',
+        'Demonstrated strong analytical and problem-solving skills gained from experience with JavaScript (ES6+), HTML5, and CSS3.',
+        'Implemented and connected REST APIs as part of a full-stack team.',
       ],
     },
   ];

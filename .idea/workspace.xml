@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="title fix">
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProjectMobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProjectMobile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Work.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,25 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/matveiv/code/typescript/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/matveiv/code/portfolio/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/matveiv/code/typescript/portfolio/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/matveiv/code/typescript/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/matveiv/code/portfolio/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/matveiv/code/typescript/portfolio/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/sections" />
@@ -73,7 +71,8 @@
       <workItem from="1680350228813" duration="46991000" />
       <workItem from="1680517803935" duration="12911000" />
       <workItem from="1680704146669" duration="6012000" />
-      <workItem from="1687892657552" duration="1345000" />
+      <workItem from="1687892657552" duration="1515000" />
+      <workItem from="1688134213538" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -299,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1680711359163</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1688025526681</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688025526681</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +325,6 @@
     <MESSAGE value="work desktop polishing" />
     <MESSAGE value="fixes &amp; scroll" />
     <MESSAGE value="work mobile" />
-    <MESSAGE value="fixes" />
     <MESSAGE value="fixes &amp; contact initial commit" />
     <MESSAGE value="contact" />
     <MESSAGE value="polishing" />
@@ -331,6 +337,7 @@
     <MESSAGE value="added favicon" />
     <MESSAGE value="fixed description" />
     <MESSAGE value="title fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="title fix" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>

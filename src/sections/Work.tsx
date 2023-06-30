@@ -1,6 +1,7 @@
 import radarCover from '../../public/images/radar.png';
 import streamingCover from '../../public/images/beetrade-streaming.png';
 import promoteCover from '../../public/images/beetrade-promote.png';
+import libiraCover from '../../public/images/libira.png';
 import FeaturedProject from '@/components/FeaturedProject';
 import { useEffect, useState } from 'react';
 import FeaturedProjectMobile from '@/components/FeaturedProjectMobile';
@@ -42,6 +43,14 @@ export default function Work() {
       linkGithub: 'https://github.com/matveisch/beetrade-promote',
       linkWebsite: '#',
     },
+    {
+      title: 'Streamlining Event Ordering for Libira',
+      cover: libiraCover,
+      description: 'This project focused on simplifying event organization for Libira. With a user-friendly website, restaurants and their clients can easily order events, enjoying a seamless experience from start to finish. The sleek design and streamlined form enable clients to provide their event details effortlessly. Discover the efficiency and convenience of this platform designed to enhance Libira\'s event booking process. Welcome to the event ordering website for Libira.',
+      stack: ['React', 'Next', 'TypeScript', 'Sass'],
+      linkGithub: 'https://github.com/matveisch/libiro',
+      linkWebsite: 'https://libiro.vercel.app/he'
+    }
 //    {
 //      title: 'E-Commerce Website (Client)',
 //      cover: promoteCover,

@@ -3,10 +3,9 @@ import profilePicture from '../../public/images/IMG_2133.jpeg';
 import Triangle from '@/components/Triangle';
 
 export default function About() {
+  const languages = ['JavaScript', 'TypeScript', 'C', 'Python', 'SQL'];
+
   const skills = [
-    'JavaScript',
-    'TypeScript',
-    'C',
     'React',
     'React Native',
     'Redux',
@@ -43,7 +42,8 @@ export default function About() {
             <a
               className="group inline-block text-cyan-300 transition duration-300"
               href="https://pskovhack.ru/"
-              target="_blank">
+              target="_blank"
+            >
               student-led web studio
               <span className="block w-0 group-hover:w-full transition-all duration-500 h-0.5 bg-cyan-300"></span>
             </a>{' '}
@@ -52,7 +52,8 @@ export default function About() {
             <a
               className="group inline-block text-cyan-300 transition duration-300"
               href="https://noviopus.com/"
-              target="_blank">
+              target="_blank"
+            >
               Israeli start-up
               <span className="block w-0 group-hover:w-full transition-all duration-500 h-0.5 bg-cyan-300"></span>
             </a>{' '}
@@ -63,10 +64,22 @@ export default function About() {
             web. Thank you for taking the time to learn more about me, and I
             hope to hear from you soon!
             <br /> <br />
-            Here are a few technologies I’ve been working with recently:
+            Programming languages I know:
           </p>
           <div className="grid sm:grid-cols-3 grid-cols-2 mt-2">
-            {skills.map(skill => {
+            {languages.map((language) => {
+              return (
+                <div className="flex items-center gap-3 w-fit" key={language}>
+                  <Triangle /> {language}
+                </div>
+              );
+            })}
+          </div>
+          <p className="mt-5">
+            And here are a few technologies I’ve been working with recently:{' '}
+          </p>
+          <div className="grid sm:grid-cols-3 grid-cols-2 mt-2">
+            {skills.map((skill) => {
               return (
                 <div className="flex items-center gap-3 w-fit" key={skill}>
                   <Triangle /> {skill}

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="enabled analytics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="new skills" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,7 @@
       <workItem from="1690567245400" duration="31000" />
       <workItem from="1690570300961" duration="363000" />
       <workItem from="1691000343048" duration="35000" />
-      <workItem from="1691526055695" duration="302000" />
+      <workItem from="1691526055695" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -338,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690570502470</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="new skills">
+      <option name="closed" value="true" />
+      <created>1691526426331</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1691526426331</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,8 +373,8 @@
     <MESSAGE value="title fix" />
     <MESSAGE value="fixes" />
     <MESSAGE value="final fixes" />
-    <MESSAGE value="new skills" />
     <MESSAGE value="enabled analytics" />
-    <option name="LAST_COMMIT_MESSAGE" value="enabled analytics" />
+    <MESSAGE value="new skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="new skills" />
   </component>
 </project>

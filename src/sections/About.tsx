@@ -3,7 +3,7 @@ import profilePicture from '../../public/images/IMG_2133.jpeg';
 import Triangle from '@/components/Triangle';
 
 export default function About() {
-  const languages = ['JavaScript', 'TypeScript', 'C', 'Python', 'SQL'];
+  const languages = ['JavaScript', 'TypeScript', 'SQL'];
 
   const skills = [
     'React',

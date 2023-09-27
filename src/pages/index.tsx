@@ -47,7 +47,8 @@ export default function Home() {
         className={`
           flex flex-col fixed top-[80px] left-0 gap-4 w-[100vw] bg-dark-blue-blur backdrop-blur z-50 items-center pb-4
           md:left-[unset] md:w-[unset] md:flex-row md:relative md:top-0 md:pb-[unset]
-        `}>
+        `}
+      >
         <button
           className={`{hover:text-cyan-300 text-slate-300 ${styles.fadeIn}`}
           onClick={() => {
@@ -56,7 +57,8 @@ export default function Home() {
               block: 'start',
             });
             setNavbarMobile(false);
-          }}>
+          }}
+        >
           About
         </button>
         <button
@@ -68,7 +70,8 @@ export default function Home() {
               block: 'start',
             });
             setNavbarMobile(false);
-          }}>
+          }}
+        >
           Experience
         </button>
         <button
@@ -80,7 +83,8 @@ export default function Home() {
               block: 'start',
             });
             setNavbarMobile(false);
-          }}>
+          }}
+        >
           Work
         </button>
         <button
@@ -92,14 +96,16 @@ export default function Home() {
               block: 'start',
             });
             setNavbarMobile(false);
-          }}>
+          }}
+        >
           Contact
         </button>
         <a
-          href="/matvei_voinich.pdf"
+          href="/matvei_voinich_cv.pdf"
           download
           className={`border border-cyan-300 rounded-md px-1 py-2 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue ${styles.fadeIn}`}
-          style={{ animationDuration: '5s' }}>
+          style={{ animationDuration: '5s' }}
+        >
           Resume
         </a>
       </div>
@@ -122,7 +128,8 @@ export default function Home() {
           {navbarMobile && (
             <div
               className="fixed top-[218px] bottom-0 left-0 right-0 z-50"
-              onClick={handleClickOutside}>
+              onClick={handleClickOutside}
+            >
               <Buttons />
             </div>
           )}

@@ -10,6 +10,15 @@ export default function Experience() {
   const tabsRef = useRef<HTMLButtonElement[]>([]);
   const jobs = [
     {
+      title: 'Full-stack Developer, Team Lead, Co-Founder',
+      company: 'Desight',
+      link: 'https://desight.co/',
+      date: 'Sep 2022 - now',
+      points: [
+        'As a co-founder of a dynamic web studio, I play a pivotal role in both leadership and development. In my capacity as a full-stack developer, I lead our team in creating responsive and dynamic websites. Our collaborative efforts result in impactful digital solutions.',
+      ],
+    },
+    {
       title: 'Front-End Developer',
       company: 'Noviopus',
       link: 'https://noviopus.com/',
@@ -18,7 +27,7 @@ export default function Experience() {
         'Translated the whole application into different languages using i18next, TypeScript and React.',
         'Worked cooperatively with client services, sales and design team in deadline-driven environment.',
         'Coded using React, Redux, CSS, MUI and TypeScript to develop features for both mobile and desktop platforms.',
-        'Designed and updated layouts to meet usability and performance requirements.'
+        'Designed and updated layouts to meet usability and performance requirements.',
       ],
     },
     {
@@ -74,14 +83,15 @@ export default function Experience() {
             {jobs.map((job, index) => {
               return (
                 <button
-                  ref={el => {
+                  ref={(el) => {
                     if (el !== null) tabsRef.current[index] = el;
                   }}
                   onClick={() => setActiveTab(index)}
                   className={`px-5 py-2 w-100 border-b-2 sm:border-b-0 sm:border-l-2 hover:bg-blueGray-800 border-blueGray-700 ${
                     activeTab === index && 'text-cyan-300 bg-blueGray-800'
                   }`}
-                  key={`${job.company}-tabs`}>
+                  key={`${job.company}-tabs`}
+                >
                   {job.company}
                 </button>
               );

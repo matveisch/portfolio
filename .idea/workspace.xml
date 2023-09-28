@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="new skills" />
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/sections" />
     </key>
   </component>
@@ -78,6 +79,7 @@
       <workItem from="1690570300961" duration="363000" />
       <workItem from="1691000343048" duration="35000" />
       <workItem from="1691526055695" duration="378000" />
+      <workItem from="1695824979096" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -343,14 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691526426331</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency.">
+      <option name="closed" value="true" />
+      <created>1695825161050</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1695825161050</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed navbar with blur" />
     <MESSAGE value="work section" />
     <MESSAGE value="scroll fixes" />
     <MESSAGE value="work initial commit" />
@@ -375,6 +384,7 @@
     <MESSAGE value="final fixes" />
     <MESSAGE value="enabled analytics" />
     <MESSAGE value="new skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="new skills" />
+    <MESSAGE value="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
   </component>
 </project>

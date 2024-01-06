@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +80,7 @@
       <workItem from="1691000343048" duration="35000" />
       <workItem from="1691526055695" duration="378000" />
       <workItem from="1695824979096" duration="199000" />
+      <workItem from="1695906920755" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -353,14 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695825161050</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant.">
+      <option name="closed" value="true" />
+      <created>1695907170917</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1695907170917</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="work section" />
     <MESSAGE value="scroll fixes" />
     <MESSAGE value="work initial commit" />
     <MESSAGE value="work description" />
@@ -385,6 +393,7 @@
     <MESSAGE value="enabled analytics" />
     <MESSAGE value="new skills" />
     <MESSAGE value="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
+    <MESSAGE value="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
   </component>
 </project>

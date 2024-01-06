@@ -2,6 +2,7 @@ import radarCover from '../../public/images/radar.png';
 import streamingCover from '../../public/images/beetrade-streaming.png';
 import promoteCover from '../../public/images/beetrade-promote.png';
 import libiraCover from '../../public/images/libira.png';
+import meyadCover from '../../public/images/meyadCover.png';
 import FeaturedProject from '@/components/FeaturedProject';
 import { useEffect, useState } from 'react';
 import FeaturedProjectMobile from '@/components/FeaturedProjectMobile';
@@ -46,20 +47,30 @@ export default function Work() {
     {
       title: 'Streamlining Event Ordering for Libira',
       cover: libiraCover,
-      description: 'This project focused on simplifying event organization for Libira. With a user-friendly website, restaurants and their clients can easily order events, enjoying a seamless experience from start to finish. The sleek design and streamlined form enable clients to provide their event details effortlessly. Discover the efficiency and convenience of this platform designed to enhance Libira\'s event booking process. Welcome to the event ordering website for Libira.',
+      description:
+        "This project focused on simplifying event organization for Libira. With a user-friendly website, restaurants and their clients can easily order events, enjoying a seamless experience from start to finish. The sleek design and streamlined form enable clients to provide their event details effortlessly. Discover the efficiency and convenience of this platform designed to enhance Libira's event booking process. Welcome to the event ordering website for Libira.",
       stack: ['React', 'Next', 'TypeScript', 'Sass'],
       linkGithub: 'https://github.com/matveisch/libiro',
-      linkWebsite: 'https://libiro.vercel.app/he'
-    }
-//    {
-//      title: 'E-Commerce Website (Client)',
-//      cover: promoteCover,
-//      description:
-//        'The sample e-commerce website is a platform designed to help users kick-start a simple online store quickly and easily. The website provides a pre-built e-commerce store with all the necessary features, including a shopping cart and payment gateway integration. The website can be customized with a unique domain name, branding, and design to create a personalized online store.',
-//      stack: ['React', 'JavaScript', 'Sass'],
-//      linkGithub: '#',
-//      linkWebsite: '#',
-//    },
+      linkWebsite: 'https://libiro.vercel.app/he',
+    },
+    {
+      title: 'Website for helping people',
+      cover: meyadCover,
+      description:
+        "This platform is a beacon of solidarity during challenging times of war in Israel. Designed with a user-friendly interface, individuals can easily find and offer help. Whether it's providing shelter, essential supplies, or emotional support, the website connects people seamlessly. ",
+      stack: ['React', 'Next', 'TypeScript', 'Sass'],
+      linkGithub: 'https://github.com/matveisch/truma',
+      linkWebsite: 'https://www.meyad-leyad.com/en',
+    },
+    //    {
+    //      title: 'E-Commerce Website (Client)',
+    //      cover: promoteCover,
+    //      description:
+    //        'The sample e-commerce website is a platform designed to help users kick-start a simple online store quickly and easily. The website provides a pre-built e-commerce store with all the necessary features, including a shopping cart and payment gateway integration. The website can be customized with a unique domain name, branding, and design to create a personalized online store.',
+    //      stack: ['React', 'JavaScript', 'Sass'],
+    //      linkGithub: '#',
+    //      linkWebsite: '#',
+    //    },
   ];
 
   useEffect(() => {
@@ -102,7 +113,7 @@ export default function Work() {
               linkWebsite={project.linkWebsite}
               key={project.title}
             />
-          ),
+          )
         )}
       </div>
     </section>

@@ -50,7 +50,7 @@ export default function FeaturedProject(props: Props) {
             priority
             src={cover}
             alt="project-cover"
-            className={`max-w-[500px] rounded-md grayscale contrast-100 mix-blend-multiply hover:filter-none hover:mix-blend-normal`}
+            className={`max-w-[500px] rounded-md grayscale contrast-100 mix-blend-multiply hover:filter-none hover:mix-blend-normal max-h-[350px] object-cover`}
           />
         </Link>
       </div>

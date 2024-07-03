@@ -1,14 +1,26 @@
+import FeaturedProject from '@/components/FeaturedProject';
+import { useEffect, useState } from 'react';
+import FeaturedProjectMobile from '@/components/FeaturedProjectMobile';
+
 import radarCover from '../../public/images/radar.png';
 import streamingCover from '../../public/images/beetrade-streaming.png';
 import promoteCover from '../../public/images/beetrade-promote.png';
 import libiraCover from '../../public/images/libira.png';
 import meyadCover from '../../public/images/meyadCover.png';
-import FeaturedProject from '@/components/FeaturedProject';
-import { useEffect, useState } from 'react';
-import FeaturedProjectMobile from '@/components/FeaturedProjectMobile';
+import appCover from '../../public/images/app.png';
+
 export default function Work() {
   const [screenWidth, setScreenWidth] = useState(0);
   const projects = [
+    {
+      title: 'Educational App',
+      cover: appCover,
+      description:
+        'WordEm is an innovative app designed to enhance vocabulary through personalized learning. Users earn points for correct answers and lose points for mistakes, promoting continuous improvement. Words are periodically reviewed to ensure long-term retention, making WordEm a valuable tool for personal and professional development.',
+      stack: ['React Native', 'Expo', 'TypeScript', 'React Query', 'MobX'],
+      linkGithub: 'https://github.com/matveisch/words-expo',
+      linkWebsite: 'https://apps.apple.com/us/app/wordem/id6503954546',
+    },
     {
       title: 'Website For Marketing Agency',
       cover: radarCover,

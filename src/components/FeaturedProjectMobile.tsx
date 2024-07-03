@@ -29,34 +29,39 @@ export default function FeaturedProjectMobile(props: Props) {
       className={`flex flex-col z-20 p-8 bg-[#112240] rounded-md ${
         visibleOnce && styles.fadeInSlow
       }`}
-      ref={ref}>
+      ref={ref}
+    >
       <h4 className="mb-1 text-cyan-300">Featured Project</h4>
       <h2 className="mb-4 text-2xl text-slate-300">{title}</h2>
       <div className="mb-4">
         <p>{description}</p>
       </div>
       <div className="flex gap-3 flex-wrap">
-        {stack.map(item => {
+        {stack.map((item) => {
           return <p key={item}>{item}</p>;
         })}
       </div>
       <div className="flex gap-4 items-center mt-3">
-        {linkGithub.length > 1 && <Link href={linkGithub} target="_blank" as="image">
-          <Image
-            src={githubIcon}
-            alt="github-icon"
-            width={20}
-            className={`${styles.filter}`}
-          />
-        </Link>}
-        {linkWebsite.length > 1 && <Link href={linkWebsite} target="_blank" as="image">
-          <Image
-            src={linkIcon}
-            alt="link-icon"
-            width={20}
-            className={`${styles.filter}`}
-          />
-        </Link>}
+        {linkGithub.length > 1 && (
+          <Link href={linkGithub} target="_blank">
+            <Image
+              src={githubIcon}
+              alt="github-icon"
+              width={20}
+              className={`${styles.filter}`}
+            />
+          </Link>
+        )}
+        {linkWebsite.length > 1 && (
+          <Link href={linkWebsite} target="_blank">
+            <Image
+              src={linkIcon}
+              alt="link-icon"
+              width={20}
+              className={`${styles.filter}`}
+            />
+          </Link>
+        )}
       </div>
     </div>
   );

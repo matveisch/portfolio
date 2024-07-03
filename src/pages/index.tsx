@@ -101,7 +101,7 @@ export default function Home() {
           Contact
         </button>
         <a
-          href="/matvei_voinich_cv.pdf"
+          href="/Frontend_Software_Developer_Matvei_Voinich.pdf"
           download
           className={`border border-cyan-300 rounded-md px-1 py-2 text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue ${styles.fadeIn}`}
           style={{ animationDuration: '5s' }}

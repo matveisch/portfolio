@@ -32,7 +32,8 @@ export default function FeaturedProject(props: Props) {
       ref={ref}
       className={`grid grid-cols-[33.3%_33.3%_33.3%] items-center relative grid-rows-1 min-h-[300px] ${
         rtl && 'grid-rows-1'
-      }`}>
+      }`}
+    >
       <div
         className={`max-w-[500px] rounded-md row-start-1 col-end-3 absolute transition-all duration-1000 delay-700 ${
           rtl
@@ -42,7 +43,8 @@ export default function FeaturedProject(props: Props) {
             : `col-start-1 place-self-start ${
                 visibleOnce ? 'left-0' : 'left-[-300px]'
               }`
-        } bg-cyan-300`}>
+        } bg-cyan-300`}
+      >
         <Link href={linkWebsite} target="_blank" as="image">
           <Image
             priority
@@ -63,34 +65,39 @@ export default function FeaturedProject(props: Props) {
                   visibleOnce ? 'right-0' : 'right-[-300px]'
                 }`
           }
-        `}>
+        `}
+      >
         <h4 className="mb-1 text-cyan-300">Featured Project</h4>
         <h2 className="mb-4 text-2xl text-slate-300">{title}</h2>
         <div className="bg-[#112240] p-2 rounded-md mb-4">
           <p className={`w-[500px] ${!rtl && 'text-end'}`}>{description}</p>
         </div>
         <div className="flex gap-3">
-          {stack.map(item => {
+          {stack.map((item) => {
             return <p key={item}>{item}</p>;
           })}
         </div>
         <div className="flex gap-4 items-center mt-3">
-          {linkGithub.length > 1 && <Link href={linkGithub} target="_blank" as="image">
-            <Image
-              src={githubIcon}
-              alt="github-icon"
-              width={20}
-              className={`${styles.filter}`}
-            />
-          </Link>}
-          {linkWebsite.length > 1 && <Link href={linkWebsite} target="_blank" as="image">
-            <Image
-              src={linkIcon}
-              alt="link-icon"
-              width={20}
-              className={`${styles.filter}`}
-            />
-          </Link>}
+          {linkGithub.length > 1 && (
+            <Link href={linkGithub} target="_blank">
+              <Image
+                src={githubIcon}
+                alt="github-icon"
+                width={20}
+                className={`${styles.filter}`}
+              />
+            </Link>
+          )}
+          {linkWebsite.length > 1 && (
+            <Link href={linkWebsite} target="_blank">
+              <Image
+                src={linkIcon}
+                alt="link-icon"
+                width={20}
+                className={`${styles.filter}`}
+              />
+            </Link>
+          )}
         </div>
       </div>
     </div>

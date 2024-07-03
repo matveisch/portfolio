@@ -16,7 +16,7 @@ export default function Work() {
         "This marketing agency website is modern, fast, and visually pleasing with interactive sections and pages. It provides all necessary information about the company, including its services, team members, and portfolio. The website's animations and UI create a positive first impression and enhance the user experience. Overall, it is a powerful marketing tool for the agency to attract new clients.",
       stack: ['React', 'Next', 'TypeScript', 'Sass'],
       linkGithub: 'https://github.com/matveisch/radar-next',
-      linkWebsite: 'https://www.radardigitaly.com/',
+      linkWebsite: 'https://radar-next-matveisch.vercel.app/',
     },
     {
       title: 'Video Streaming Website',

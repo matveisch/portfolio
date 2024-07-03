@@ -15,8 +15,9 @@ export default function Intro() {
         project.
       </p>
       <a
-        href="mailto:matveivoinich@gmail.com"
-        className="border border-cyan-300 rounded-md px-[3%] py-[2%] text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue mt-6">
+        href="mailto:voinichmatvei@gmail.com"
+        className="border border-cyan-300 rounded-md px-[3%] py-[2%] text-cyan-300 hover:bg-cyan-300 hover:text-dark-blue mt-6"
+      >
         Reach me out right away!
       </a>
     </section>

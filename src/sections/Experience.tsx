@@ -10,36 +10,42 @@ export default function Experience() {
   const tabsRef = useRef<HTMLButtonElement[]>([]);
   const jobs = [
     {
-      title: 'Full-stack Developer, Team Lead, Co-Founder',
+      title: 'Full-stack Developer, Team Lead',
       company: 'Desight',
       link: 'https://desight.co/',
-      date: 'Sep 2022 - now',
+      date: 'Sep 2022 - May 2024',
       points: [
-        'As a co-founder of a dynamic web studio, I play a pivotal role in both leadership and development. In my capacity as a full-stack developer, I lead our team in creating responsive and dynamic websites. Our collaborative efforts result in impactful digital solutions.',
+        'Led a team of 5 developers in building a new marketing platform, resulting in a 15% increase in conversion rates.',
+        'Mentored junior developers, fostered a collaborative environment, and implemented agile methodologies to improve team efficiency.',
+        'Streamlined communication channels and implemented project management tools, leading to a 20% reduction in project completion timelines.',
       ],
     },
     {
-      title: 'Front-End Developer',
+      title: 'Frontend Software Engineer',
       company: 'Noviopus',
       link: 'https://noviopus.com/',
       date: 'Sep 2022 - Apr 2023',
       points: [
-        'Translated the whole application into different languages using i18next, TypeScript and React.',
-        'Worked cooperatively with client services, sales and design team in deadline-driven environment.',
-        'Coded using React, Redux, CSS, MUI and TypeScript to develop features for both mobile and desktop platforms.',
-        'Designed and updated layouts to meet usability and performance requirements.',
+        'Enhanced user experience for a high-traffic application by translating the entire user interface into several languages using i18next and React. This\n' +
+          'project ensured a seamless experience for a global audience while adhering to strict deadlines.',
+        'Developed responsive features for both mobile and desktop platforms using React, CSS, and Material-UI. Collaborated closely with designers to\n' +
+          'translate mockups into functional UIs, resulting in a 20% decrease in user bounce rates.\n',
+        'Improved the subscription experience on the platform by streamlining the sign-up process with React and Redux. Implemented clear and concise\n' +
+          'information architecture, leading to a 15% increase in subscription conversions.',
       ],
     },
     {
-      title: 'Front-End Developer',
+      title: 'Frontend Software Engineer',
       company: 'PskovHack',
       link: 'https://pskovhack.ru/',
       date: 'Mar 2021 - Jun 2022',
       points: [
-        'Collaborated with client services, sales, and design teams in a deadline-driven environment, utilizing mastered skills in React, Redux, CSS, MUI, and TypeScript.',
-        'Developed features for mobile and desktop platforms, ensuring layouts met usability and performance requirements.',
-        'Demonstrated strong analytical and problem-solving skills gained from experience with JavaScript (ES6+), HTML5, and CSS3.',
-        'Implemented and connected REST APIs as part of a full-stack team.',
+        'Developed responsive features for mobile and desktop platforms, ensuring a flawless user experience across devices. Achieved a consistent website\n' +
+          'speed score of 90+ using performance optimization techniques and adhering to best practices for layout design.',
+        'Increased development efficiency by 12% through code reusability strategies and by implementing a well-documented component library in React.\n' +
+          'Demonstrated strong analytical skills to identify performance bottlenecks and implement effective solutions.',
+        'Integrated and communicated effectively with REST APIs, collaborating seamlessly with the back-end team to ensure smooth data flow and\n' +
+          'functionality within various projects.',
       ],
     },
   ];

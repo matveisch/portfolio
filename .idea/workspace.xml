@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="new portfolio project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProjectMobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProjectMobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Work.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "matveisch"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/matveisch/portfolio.git",
+    "accountId": "0bee85e9-21e9-4ee5-9c02-b4b7cbcfbc40"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,30 +52,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/matveiv/code/react/portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/matveiv/code/react/portfolio/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/matveiv/code/react/portfolio/node_modules/typescript/lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/matveiv/code/react/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/matveiv/code/react/portfolio/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/matveiv/code/react/portfolio/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/sections" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -81,6 +109,8 @@
       <workItem from="1691526055695" duration="378000" />
       <workItem from="1695824979096" duration="199000" />
       <workItem from="1695906920755" duration="263000" />
+      <workItem from="1704531783124" duration="918000" />
+      <workItem from="1719995723319" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -362,14 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695907170917</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="new portfolio project">
+      <option name="closed" value="true" />
+      <created>1704532586242</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1704532586242</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="scroll fixes" />
     <MESSAGE value="work initial commit" />
     <MESSAGE value="work description" />
     <MESSAGE value="work basic styling" />
@@ -394,6 +431,7 @@
     <MESSAGE value="new skills" />
     <MESSAGE value="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
     <MESSAGE value="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
+    <MESSAGE value="new portfolio project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new portfolio project" />
   </component>
 </project>

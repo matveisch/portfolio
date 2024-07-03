@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profilePicture from '../../public/images/IMG_2133.jpeg';
+import profilePicture from '../../public/images/IMG_0887.jpeg';
 import Triangle from '@/components/Triangle';
 
 export default function About() {
@@ -8,7 +8,10 @@ export default function About() {
   const skills = [
     'React',
     'React Native',
+    'Expo',
     'Redux',
+    'MobX',
+    'React Query',
     'Next',
     'Vite',
     'Node',

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="new portfolio project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProjectMobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProjectMobile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Work.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +103,7 @@
       <workItem from="1695824979096" duration="199000" />
       <workItem from="1695906920755" duration="263000" />
       <workItem from="1704531783124" duration="918000" />
-      <workItem from="1719995723319" duration="990000" />
+      <workItem from="1719995723319" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -400,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704532586242</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1719996991519</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1719996991519</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,13 +426,13 @@
     <MESSAGE value="added favicon" />
     <MESSAGE value="fixed description" />
     <MESSAGE value="title fix" />
-    <MESSAGE value="fixes" />
     <MESSAGE value="final fixes" />
     <MESSAGE value="enabled analytics" />
     <MESSAGE value="new skills" />
     <MESSAGE value="Update workspace settings and cleaned code in index and About sections&#10;&#10;This commit implements a few changes. Firstly, it updates the workspace.xml including the number of local tasks. The task 'new skills' is added to show the new skills acquired. Also, a few changes were made to the 'index.tsx' file for better code readability and change in the resume's file name.&#10;In the 'About.tsx' file, languages have been adjusted to reflect current proficiency." />
     <MESSAGE value="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
     <MESSAGE value="new portfolio project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new portfolio project" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>

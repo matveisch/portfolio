@@ -13,7 +13,7 @@ export default function Experience() {
       title: 'Full-stack Developer, Team Lead',
       company: 'Desight',
       link: 'https://desight.co/',
-      date: 'Sep 2022 - May 2024',
+      date: 'Apr 2023 - May 2024',
       points: [
         'Led a team of 5 developers in building a new marketing platform, resulting in a 15% increase in conversion rates.',
         'Mentored junior developers, fostered a collaborative environment, and implemented agile methodologies to improve team efficiency.',

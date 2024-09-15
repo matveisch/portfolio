@@ -31,6 +31,24 @@ export default function Work() {
       linkWebsite: 'https://radar-next-matveisch.vercel.app/',
     },
     {
+      title: 'Streamlining Event Ordering for Libira',
+      cover: libiraCover,
+      description:
+        "This project focused on simplifying event organization for Libira. With a user-friendly website, restaurants and their clients can easily order events, enjoying a seamless experience from start to finish. The sleek design and streamlined form enable clients to provide their event details effortlessly. Discover the efficiency and convenience of this platform designed to enhance Libira's event booking process. Welcome to the event ordering website for Libira.",
+      stack: ['React', 'Next', 'TypeScript', 'Sass'],
+      linkGithub: 'https://github.com/matveisch/libiro',
+      linkWebsite: 'https://libiro.vercel.app/he',
+    },
+    {
+      title: 'Website for helping people',
+      cover: meyadCover,
+      description:
+        "This platform is a beacon of solidarity during challenging times of war in Israel. Designed with a user-friendly interface, individuals can easily find and offer help. Whether it's providing shelter, essential supplies, or emotional support, the website connects people seamlessly. ",
+      stack: ['React', 'Next', 'TypeScript', 'Sass'],
+      linkGithub: 'https://github.com/matveisch/truma',
+      linkWebsite: 'https://truma.vercel.app/en',
+    },
+    {
       title: 'Video Streaming Website',
       cover: streamingCover,
       description:
@@ -55,24 +73,6 @@ export default function Work() {
       stack: ['React', 'Next', 'CoinMarketCap API', 'TypeScript', 'Sass'],
       linkGithub: 'https://github.com/matveisch/beetrade-promote',
       linkWebsite: '#',
-    },
-    {
-      title: 'Streamlining Event Ordering for Libira',
-      cover: libiraCover,
-      description:
-        "This project focused on simplifying event organization for Libira. With a user-friendly website, restaurants and their clients can easily order events, enjoying a seamless experience from start to finish. The sleek design and streamlined form enable clients to provide their event details effortlessly. Discover the efficiency and convenience of this platform designed to enhance Libira's event booking process. Welcome to the event ordering website for Libira.",
-      stack: ['React', 'Next', 'TypeScript', 'Sass'],
-      linkGithub: 'https://github.com/matveisch/libiro',
-      linkWebsite: 'https://libiro.vercel.app/he',
-    },
-    {
-      title: 'Website for helping people',
-      cover: meyadCover,
-      description:
-        "This platform is a beacon of solidarity during challenging times of war in Israel. Designed with a user-friendly interface, individuals can easily find and offer help. Whether it's providing shelter, essential supplies, or emotional support, the website connects people seamlessly. ",
-      stack: ['React', 'Next', 'TypeScript', 'Sass'],
-      linkGithub: 'https://github.com/matveisch/truma',
-      linkWebsite: 'https://truma.vercel.app/en',
     },
     //    {
     //      title: 'E-Commerce Website (Client)',

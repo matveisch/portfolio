@@ -1,10 +1,10 @@
+import { useIsVisible } from '@/interface/useIsVisible';
 import Image, { StaticImageData } from 'next/image';
-import githubIcon from '../../public/images/github.png';
-import linkIcon from '../../public/images/external-link.png';
-import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
-import { useIsVisible } from '@/interface/useIsVisible';
+import linkIcon from '../../public/images/external-link.png';
+import githubIcon from '../../public/images/github.png';
+import styles from '../styles/Home.module.css';
 
 interface Props {
   title: string;
@@ -45,7 +45,7 @@ export default function FeaturedProject(props: Props) {
               }`
         } bg-cyan-300`}
       >
-        <Link href={linkWebsite} target="_blank" as="image">
+        <Link href={linkWebsite} target="_blank">
           <Image
             priority
             src={cover}

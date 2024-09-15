@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="fixes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProject.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Work.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="e351c31c-1259-4297-af2f-aec9abe4a407" name="Changes" comment="new work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +104,7 @@
       <workItem from="1695906920755" duration="263000" />
       <workItem from="1704531783124" duration="918000" />
       <workItem from="1719995723319" duration="1347000" />
-      <workItem from="1719998369921" duration="1560000" />
+      <workItem from="1719998369921" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1680351138697</created>
@@ -414,14 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719998425756</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="new work">
+      <option name="closed" value="true" />
+      <created>1720002917720</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1720002917720</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="work initial commit" />
     <MESSAGE value="work description" />
     <MESSAGE value="work basic styling" />
     <MESSAGE value="work desktop polishing" />
@@ -446,6 +449,7 @@
     <MESSAGE value="Updated workspace settings and added new job position&#10;&#10;The workspace settings were updated to improve code readability and maintainability. Additional changes were implemented on the 'index.tsx' and 'About.tsx' files for enhancement and to represent up-to-date information. A new job position was added in the 'Experience.tsx' to keep the work experience section current and relevant." />
     <MESSAGE value="new portfolio project" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="new work" />
+    <option name="LAST_COMMIT_MESSAGE" value="new work" />
   </component>
 </project>

@@ -1,13 +1,13 @@
 import FeaturedProject from '@/components/FeaturedProject';
-import { useEffect, useState } from 'react';
 import FeaturedProjectMobile from '@/components/FeaturedProjectMobile';
+import { useEffect, useState } from 'react';
 
-import radarCover from '../../public/images/radar.png';
-import streamingCover from '../../public/images/beetrade-streaming.png';
+import appCover from '../../public/images/app.png';
 import promoteCover from '../../public/images/beetrade-promote.png';
+import streamingCover from '../../public/images/beetrade-streaming.png';
 import libiraCover from '../../public/images/libira.png';
 import meyadCover from '../../public/images/meyadCover.png';
-import appCover from '../../public/images/app.png';
+import radarCover from '../../public/images/radar.png';
 
 export default function Work() {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -72,7 +72,7 @@ export default function Work() {
         "This platform is a beacon of solidarity during challenging times of war in Israel. Designed with a user-friendly interface, individuals can easily find and offer help. Whether it's providing shelter, essential supplies, or emotional support, the website connects people seamlessly. ",
       stack: ['React', 'Next', 'TypeScript', 'Sass'],
       linkGithub: 'https://github.com/matveisch/truma',
-      linkWebsite: 'https://www.meyad-leyad.com/en',
+      linkWebsite: 'https://truma.vercel.app/en',
     },
     //    {
     //      title: 'E-Commerce Website (Client)',
